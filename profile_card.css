@@ -1,0 +1,18 @@
+/* Default values for desktop view */
+body {
+    background-color: #189eaa;
+}
+
+#circle_1 {
+    position: absolute;
+    bottom: 35%;
+    right: 50%;
+}
+
+#circle_2 {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+}
+/* * { border: 1px solid black; } */
+
