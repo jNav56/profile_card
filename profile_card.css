@@ -1,6 +1,18 @@
 /* Default values for desktop view */
 body {
     background-color: #189eaa;
+    overflow: hidden; /* this is to avoid getting a scrollbar like in #circle_2*/
+    /* border: 1px solid black; */
+}
+
+
+#container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;    /* horizontally centers children */
+    align-items: center;        /* veritcally centers children*/
+    /* border: 1px solid black; */
 }
 
 #circle_1 {
@@ -9,10 +21,23 @@ body {
     right: 50%;
 }
 
+
 #circle_2 {
     position: absolute;
     top: 55%;
     left: 50%;
+}
+
+#card {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 50%;
+    background: white;
+    /*justify-content: center;    /* horizontally */
+    /*align-items: center;        /* veritcally */
+    border: 1px solid black;
+
 }
 /* * { border: 1px solid black; } */
 
